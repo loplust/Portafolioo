@@ -17,7 +17,7 @@ export default function proyectos({ darkMode }) {
             </div>
         
                <div className="title">
-                   <h2>Pagina Rick and Morty</h2>
+                   <h2>Rick and Morty</h2>
                    </div> 
                <div className="info2">
                    </div> 
