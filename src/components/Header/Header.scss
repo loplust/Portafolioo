@@ -1,0 +1,20 @@
+@use '../../Sass/vars' as *;
+.ContainerName {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 45px;
+}
+.ContainerName.darkMode{
+    color: $dark-mode-elementes;
+}
+.switch_mode {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+@media (min-width: 800px) {
+    .ContainerName {
+        height: 100px;
+    }
+}

@@ -1,0 +1,48 @@
+@use '../../Sass/vars' as *;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+@font-face {
+    font-family: Metropolis-SemiBold;
+    src: url(../../font/Metropolis-Bold.otf);
+  }
+
+.ContainerAboutme {
+    margin-bottom: 72px;
+}
+/* .ContainerAboutme.darkMode{
+    color:$dark-mode-elementes;
+} */
+.AboutMe {
+    font-size: 28px;
+    margin-bottom: 24px;
+    color: #5E5E5D;
+    font-family:Metropolis-Bold;
+}
+.AboutMe.darkMode{
+    color: $dark-mode-elementes;
+}
+.Me {
+    font-size: 18px;
+    line-height: 28.8px;
+    color: #5E5E5D;
+    font-family: 'Nunito';
+    font-weight: 400;
+}
+.Me.darkMode {
+    color: $dark-mode-elementes;
+}
+@media (min-width:800px){
+    .ContainerAboutme{
+        width: 80%;
+        margin-left: 195px;
+        margin-bottom: 160px;
+    }
+    .AboutMe{
+        font-size: 36px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .Me{
+        font-size: 22px;
+        text-align: justify;
+    }
+}

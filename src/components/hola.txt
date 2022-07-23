@@ -1,0 +1,11 @@
+export default function Header({ onClick, darkMode }) {
+  return (
+      <div>
+
+               <div className={`ContainerName ${darkMode ? 'darkMode' : ''}`}>
+
+                <div className="switch_mode" onClick={onClick}>
+                  <MdDarkMode/>
+                  </div>   
+                  
+                   </div>

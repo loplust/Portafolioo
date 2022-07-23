@@ -1,0 +1,81 @@
+@use '../../Sass/vars' as *;
+@font-face {
+    font-family: Metropolis-Regular;
+    src: url(../../font/Metropolis-Regular.otf);
+}
+
+.ContainerContacto{
+    width:100%;
+/*     height: 78vh;
+ *//* margin-left:193px;
+margin-right:192px; */
+display:flex;
+flex-direction:column;
+margin-top:61px;
+/* margin-bottom:160px; */
+}
+
+.Contacto {
+    font-size: 32px;
+    line-height: 44.8px;
+    color: #5E5E5D;
+    margin-bottom: 48px;
+    font-family: Metropolis-Regular;
+    font-weight: 400;
+
+}
+.Contacto.darkMode{
+    color: $dark-mode-elementes;
+}
+.vibe{
+    font-size:32px;
+    color: #5E5E5D;
+    font-family: Metropolis-Regular;
+    font-weight: 400;
+}
+.vibe.darkMode{
+    color: $dark-mode-elementes;
+}
+.ContainerMensaje{
+margin-bottom: 54px;
+}
+.RedSocial {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 100px;
+    color: $light-mode-elementes;
+/*     img{
+        width: 100px;
+    } */
+}
+.link{
+    color: $light-mode-elementes;
+}
+.link.darkMode{
+    color: $dark-mode-elementes;
+}
+.RedSocial.darkMode{
+    color: $dark-mode-elementes;
+}
+    
+    @media (min-width: 1200px) {
+   /*      .RedSocial{
+            height: 40vh;
+        } */
+        .ContainerContacto {
+            height: 70vh;
+        }
+        .Contacto{
+            font-size: 42px;
+            margin-bottom: 53px;
+        }
+        .ContainerMensaje{
+            margin-bottom: 88px;
+        }
+        .vibe{
+            font-size: 42px;
+        }
+    }

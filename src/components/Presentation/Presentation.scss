@@ -1,0 +1,42 @@
+@use '../../Sass/vars' as *;
+@font-face {
+    font-family: Metropolis-SemiBold;
+    src: url(../../font/Metropolis-SemiBold.otf);
+  }
+.ContainerPresentacion {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 40px;
+    color: $light-mode-elementes;
+}
+.ContainerPresentacion.darkMode{
+    color: $dark-mode-elementes;
+}
+.Saludo{
+    color: $light-mode-elementes;
+    font-family: Metropolis-SemiBold;
+}
+.Saludo.darkMode{
+    color: $dark-mode-elementes;
+}
+@media (min-width: 800px) {
+    .ContainerPresentacion{
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        margin-left: 192px;
+    }
+    .Saludo{
+        font-size: 42px;
+        /* width: 50%; */
+    
+    }
+    .ImageProfile{
+        width: 90%;
+    display: flex;
+    justify-content: space-around;
+    }
+    .imagen{
+        width: 70%;
+    }
+}

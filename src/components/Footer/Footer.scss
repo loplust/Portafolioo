@@ -1,0 +1,21 @@
+@font-face {
+    font-family: Metropolis-Bold;
+    src: url(../../font/Metropolis-Bold.otf);
+  }
+footer{
+    width: 100%;
+    height: 68px;
+    background-color: #6C7AC7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+.mensaje{
+    color: #FFFFFF;
+    font-family:Metropolis-Bold;
+    font-weight:700;
+    text-align: center;
+}
+span{
+    color: #EFF310;
+}

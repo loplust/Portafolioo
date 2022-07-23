@@ -1,0 +1,59 @@
+@use '../../Sass/vars' as *;
+@font-face {
+    font-family: Metropolis-Bold;
+    src: url(../../font/Metropolis-Bold.otf);
+  }
+.ContainerInteres{
+    width: 100%;
+    margin-bottom: 40px;
+}
+.ListaIntereses{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    flex-direction: row;
+    padding: 0;
+    justify-content: space-evenly;
+}
+.Intereses{
+    margin-bottom: 28px;
+    color: #5E5E5D;
+    font-size: 28px;
+    font-family:Metropolis-Bold;
+    font-weight:700;
+}
+.Intereses.darkMode{
+    color: $dark-mode-elementes;
+}
+.listIntereses {
+    color: #3F51B5;
+    background-color: $yellow-mode-elementes;
+    font-size: 18px;
+    /* width: 66px; */
+    height: 31px;
+    padding: 4px 10px 4px 10px;
+    border-radius: 12px;
+    font-family:'Nunito';
+    font-weight:700;
+    display: flex;
+    align-items: center;
+    margin-bottom: 14px;
+}
+.listIntereses.darkMode{
+    background-color: $dark-mode-card;
+    color: $yellow-mode-elementes;
+}
+@media (min-width: 800px) {
+    .ContainerInteres{
+        width: 50%;
+        margin-left: 192px;
+    }
+    .Intereses{
+        font-size: 36px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .listIntereses {
+        font-size: 22px;
+    }
+}
