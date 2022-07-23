@@ -36,9 +36,9 @@ margin-top:61px;
 .vibe.darkMode{
     color: $dark-mode-elementes;
 }
-.ContainerMensaje{
+/* .ContainerMensaje{
 margin-bottom: 54px;
-}
+} */
 .RedSocial {
     width: 100%;
     height: 100%;
@@ -61,7 +61,7 @@ margin-bottom: 54px;
     color: $dark-mode-elementes;
 }
     
-    @media (min-width: 1200px) {
+    @media only screen and (min-width: 500px) and (min-width: 1200px) {
    /*      .RedSocial{
             height: 40vh;
         } */
@@ -73,7 +73,7 @@ margin-bottom: 54px;
             margin-bottom: 53px;
         }
         .ContainerMensaje{
-            margin-bottom: 88px;
+      /*       margin-bottom: 88px; */
         }
         .vibe{
             font-size: 42px;
