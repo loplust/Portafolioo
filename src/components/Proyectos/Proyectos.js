@@ -24,7 +24,7 @@ export default function proyectos({ darkMode }) {
             <a
               className={` ${darkMode ? "darkMode" : ""}`}
               href="https://cerulean-torrone-8a3e68.netlify.app/"
-              target="_blank"
+              target='_blank' rel='noreferrer noopener'
             >
               <button className={`boton ${darkMode ? "darkMode" : ""}`}>
                 demo
@@ -50,7 +50,7 @@ export default function proyectos({ darkMode }) {
             <a
               className={` ${darkMode ? "darkMode" : ""}`}
               href="https://euphonious-starlight-a1098f.netlify.app/"
-              target="_blank"
+              target='_blank' rel='noreferrer noopener'
             >
               <button className={`boton ${darkMode ? "darkMode" : ""}`}>
                 demo
@@ -76,7 +76,7 @@ export default function proyectos({ darkMode }) {
             <a
               className={` ${darkMode ? "darkMode" : ""}`}
               href="https://timely-empanada-cfa9a3.netlify.app/"
-              target="_blank"
+              target='_blank' rel='noreferrer noopener'
             >
               <button className={`boton ${darkMode ? "darkMode" : ""}`}>
                 demo
@@ -102,7 +102,7 @@ export default function proyectos({ darkMode }) {
             <a
               className={` ${darkMode ? "darkMode" : ""}`}
               href="https://steady-gaufre-5175cf.netlify.app/"
-              target="_blank"
+              target='_blank' rel='noreferrer noopener'
             >
               <button className={`boton ${darkMode ? "darkMode" : ""}`}>
                 demo
