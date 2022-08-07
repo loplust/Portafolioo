@@ -8,11 +8,11 @@ export default function AboutMe ({ darkMode }) {
          </div>
         <div className={`Me ${darkMode ? 'darkMode' : ''}`}>
         Soy front-end developer.
-Actualmente estudio desarrollo web de manera remota.
+Actualmente, estudio desarrollo web de manera remota.
 Me encanta CSS, JavaScript y React.js.
 Estoy interesado en toda la parte visual de la web, desde el diseño a su desarrollo así como la usabilidad, adaptabilidad y la accesibilidad. Mi objetivo es crear experiencias visuales impresionantes y efectivas, cada sección al píxel.
 Me gusta desarrollar, hacer amistades, el contenido audiovisual, ver peliculas y escribir.
-Realize un Bootcamp en el cual aprendí mas sobre este mundo de la tecnología. 
+Realice un Bootcamp en el cual aprendí mas sobre este mundo de la tecnología. 
 
         </div>
    
