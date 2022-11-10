@@ -4,9 +4,37 @@ import todoapp from "../../images/todo-app.png";
 import giftBrowser from "../../images/giftbrowser.png";
 import cripto from "../../images/cripto.png";
 import rickymorty from "../../images/rickymorty.png";
+import spacex from "../../images/spacex.png";
+
 export default function proyectos({ darkMode }) {
   return (
     <div className={`ContainerProyecto ${darkMode ? "darkMode" : ""}`}>
+      <div className={`proyects ${darkMode ? "darkMode" : ""}`}>
+        <div className="image">
+          <img src={spacex} alt="" />
+        </div>
+        <div className={`Containerinfo ${darkMode ? "darkMode" : ""}`}>
+          <div className={`info ${darkMode ? "darkMode" : ""}`}>
+            <h4>Diseño, Desarrollo</h4>
+          </div>
+
+          <div className="title">
+            <h2>Spacex</h2>
+          </div>
+          <div className="info2"></div>
+          <div className="Containerboton">
+            <a
+              className={` ${darkMode ? "darkMode" : ""}`}
+              href="https://zippy-sunburst-32d177.netlify.app/"
+              target='_blank' rel='noreferrer noopener'
+            >
+              <button className={`boton ${darkMode ? "darkMode" : ""}`}>
+                demo
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
       <div className={`proyects ${darkMode ? "darkMode" : ""}`}>
         <div className="image">
           <img src={rickymorty} alt="" />
